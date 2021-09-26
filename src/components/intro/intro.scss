@@ -4,7 +4,7 @@
   background-color: white;
   display: flex;
 
-  @include mobile{
+  @include mobile {
     flex-direction: column;
     align-items: center;
   }
@@ -23,14 +23,14 @@
       justify-content: center;
       float: right;
 
-      @include mobile{
+      @include mobile {
         align-items: flex-start;
       }
 
       img {
         height: 90%;
 
-        @include mobile{
+        @include mobile {
           height: 50%;
         }
       }
@@ -48,26 +48,23 @@
       flex-direction: column;
       justify-content: center;
 
-      @include mobile{
+      @include mobile {
         padding-left: 0;
         align-items: center;
       }
 
       h1 {
         font-size: 60px;
-        margin: 10px 0;
+        margin: 5px 0;
 
-        @include mobile{
+        @include mobile {
           font-size: 40px;
         }
-      }
-      h2 {
-        font-size: 35px;
       }
       h3 {
         font-size: 30px;
 
-        @include mobile{
+        @include mobile {
           font-size: 20px;
         }
 
@@ -81,16 +78,46 @@
         }
 
         @keyframes blink {
-            50%{
-                opacity: 1;
-            }
-            100%{
-                opacity: 0;
-            }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      }
+      .icon-container {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        @include mobile {
+          justify-content: space-evenly;
+        }
+        .icon {
+          font-size: 25px;
+          margin: auto;
+          margin: 3px 5px 3px 0;
+          color: black;
+          @include mobile {
+            margin: 3px 5px;
+          }
+        }
+        .instagram:hover {
+          color: #fd1d1d;
+        }
+        .github:hover {
+          color: #333333;
+        }
+        .twitter:hover {
+          color: #1da1f2;
+        }
+        .linkedIn:hover {
+          color: #0077b5;
         }
       }
     }
-    a {
+    .downArrow {
       position: absolute;
       bottom: 10px;
       left: 40%;
