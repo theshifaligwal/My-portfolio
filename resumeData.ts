@@ -41,41 +41,41 @@ const resumeData = {
     {
       name: "Full Stack MERN Bootcamp",
       issuingOrganization: "LearnCodeOnline.in",
-      issueDate: "May 2021",
-      credentialID: "42132425033224101056",
+      issueDate: "Sep 2021",
+      credentialID: "43040545033224101056",
       credentialURL:
-        "https://courses.learncodeonline.in/learn/certificate/4213242-50332",
+        "https://courses.learncodeonline.in/learn/certificate/4304054-50332",
+    },
+    {
+      name: "Backend with Nodejs Bootcamp",
+      issuingOrganization: "LearnCodeOnline.in",
+      issueDate: "Jul 2021",
+      credentialID: "4304054231292410612",
+      credentialURL:
+        "https://courses.learncodeonline.in/learn/certificate/4304054-23129",
+    },
+    {
+      name: "Front End Bootcamp",
+      issuingOrganization: "LearnCodeOnline.in",
+      issueDate: "Jun 2021",
+      credentialID: "4304054119312410350",
+      credentialURL:
+        "https://courses.learncodeonline.in/learn/certificate/4304054-11931",
     },
     {
       name: "Python",
       issuingOrganization: "GUVI Geek Networks, IITM Research Park",
       issueDate: "April 2021",
-      credentialID: "8Z2wQe7JiX16596B19",
-      credentialURL: "https://www.guvi.in/certificate?id=8Z2wQe7JiX16596B19",
+      credentialID: "621C9b8h18U3K9JE18",
+      credentialURL: "https://www.guvi.in/certificate?id=621C9b8h18U3K9JE18",
     },
     {
-      name: "React Js Bootcamp",
-      issuingOrganization: "LearnCodeOnline.in",
-      issueDate: "April 2021",
-      credentialID: "42132425363524101104",
-      credentialURL:
-        "https://courses.learncodeonline.in/learn/certificate/4213242-53635",
-    },
-    {
-      name: "SEO Specialist",
+      name: "Web Development Bootcamp",
       issuingOrganization: "Udemy",
-      issueDate: "June 2020",
-      credentialID: "UC-91e34f18-e81e-40af-9ed2-7ce6683c5af8",
+      issueDate: "April 2020",
+      credentialID: "UC-8e4eb7b7-60bd-45a2-b149-566c009094a0",
       credentialURL:
-        "https://udemy-certificate.s3.amazonaws.com/image/UC-91e34f18-e81e-40af-9ed2-7ce6683c5af8.jpg",
-    },
-    {
-      name: "Python",
-      issuingOrganization: "Udemy",
-      issueDate: "March 2020",
-      credentialID: "UC-0356d92d-cea9-40c4-90d1-2b3cb0d6c4f9",
-      credentialURL:
-        "https://udemy-certificate.s3.amazonaws.com/image/UC-0356d92d-cea9-40c4-90d1-2b3cb0d6c4f9.jpg",
+        "https://udemy-certificate.s3.amazonaws.com/image/UC-8e4eb7b7-60bd-45a2-b149-566c009094a0.jpg?v=1618814419000",
     },
   ],
   portfolio: {
@@ -316,10 +316,8 @@ const resumeData = {
         ],
         frontEnd: true,
         backEnd: true,
-        githubCodeUrlFrontEnd:
-          "https://github.com/theshifaligwal/ecom-client",
-        githubCodeUrlBackEnd:
-          "https://github.com/theshifaligwal/ecom-server",
+        githubCodeUrlFrontEnd: "https://github.com/theshifaligwal/ecom-client",
+        githubCodeUrlBackEnd: "https://github.com/theshifaligwal/ecom-server",
         techStack: [
           {
             for: "frontend",
