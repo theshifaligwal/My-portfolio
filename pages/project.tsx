@@ -42,7 +42,7 @@ export const getServerSideProps = async () => {
   const localFetch = false;
   const res = localFetch
     ? await fetch(`http://localhost:3000/api/data`)
-    : await fetch(`https://www.thearpitanand.com/api/data`);
+    : await fetch(`https://www.theshifaligwal.com/api/data`);
   const data = await res.json();
   return {
     props: {
