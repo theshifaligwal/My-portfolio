@@ -3,9 +3,9 @@ const resumeData = {
     name: "Shifali Gwal",
     profilepic: "/assets/images/profilepic.jpg",
     description: "Coding to make life easier.",
-    bio: "Hi there! I am self taught web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. ",
+    bio: "Performance-driven, innovative optimized solution seeker and motivated Full Stack Developer. Excited to be at the deployment phase of my new career as a full-stack web developer. Possess strong attention to detail, well-developed time management skills, and the ability to complete all projects within schedule and in a timely manner. ",
     fullbio:
-      "Hi there! I am self taught web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do. I am dedicated to perfecting my craft by learning from more seasoned developers, remaining humble, and continuously making strides to learn all that I can about development. While a student at Veer Bahadur Singh Purvanchal University, I studied Mechanical Engineering, but I believe that my understanding of problem solving and complex algorithms are also skills that have and will continue to contribute to my overall success as a developer.",
+      "Performance-driven, innovative optimized solution seeker and motivated Full Stack Developer. Excited to be at the deployment phase of my new career as a full-stack web developer. Possess strong attention to detail, well-developed time management skills, and the ability to complete all projects within schedule and in a timely manner.",
     contactmessage: "Get in touch with me together we can make changes.",
     email: "gwal.shifali2223@gmail.com",
     address: {
@@ -268,14 +268,14 @@ const resumeData = {
       },
       {
         id: "3",
-        shorttitle: "Shopping ASAP",
-        title: "Shopping ASAP - E-Commerce Web Application",
+        shorttitle: "Shopper",
+        title: "Shopper - E-Commerce Web Application",
         description:
           "Shopping ASAP is an E-Commerce Website, also known as Electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.",
         onFront: true,
         image:
           "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_01.png?raw=true",
-        url: "https://shopping-asap.thearpitanand.com/",
+        url: "https://shopper.theshifaligwal.com/",
         screenShot: [
           {
             websiteScreenshot:
@@ -317,9 +317,9 @@ const resumeData = {
         frontEnd: true,
         backEnd: true,
         githubCodeUrlFrontEnd:
-          "https://github.com/thearpitanand/ecommerce-web-app-client",
+          "https://github.com/theshifaligwal/ecom-client",
         githubCodeUrlBackEnd:
-          "https://github.com/thearpitanand/ecommerce-web-app-server",
+          "https://github.com/theshifaligwal/ecom-server",
         techStack: [
           {
             for: "frontend",

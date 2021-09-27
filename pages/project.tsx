@@ -21,7 +21,7 @@ const Project = ({ projects }: any) => {
   return (
     <>
       <Head>
-        <title>{`thearpitanand | ${project.shorttitle}`}</title>
+        <title>{`theshifaligwal | ${project.shorttitle}`}</title>
       </Head>
       <Navbar />
       <div>
