@@ -15,7 +15,7 @@ const WebsiteScreenshot = ({ screenshot }: any) => {
             key={websiteScreenshot.websiteScreenshot}
             className={websiteScreenshotStyle.image}
           >
-            {/* <Link href={websiteScreenshot.websiteScreenshot} passHref> */}
+            <Link href={websiteScreenshot.websiteScreenshot} passHref>
               <a>
                   <Image
                     src={websiteScreenshot.websiteScreenshot}
@@ -24,7 +24,7 @@ const WebsiteScreenshot = ({ screenshot }: any) => {
                     width="320"
                   />
               </a>
-            {/* </Link> */}
+            </Link>
           </div>
         ))}
       </div>
