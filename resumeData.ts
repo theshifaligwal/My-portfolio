@@ -72,7 +72,7 @@ const resumeData = {
     {
       name: "Web Development Bootcamp",
       issuingOrganization: "Udemy",
-      issueDate: "April 2020",
+      issueDate: "April 2021",
       credentialID: "UC-8e4eb7b7-60bd-45a2-b149-566c009094a0",
       credentialURL:
         "https://udemy-certificate.s3.amazonaws.com/image/UC-8e4eb7b7-60bd-45a2-b149-566c009094a0.jpg?v=1618814419000",
@@ -82,34 +82,38 @@ const resumeData = {
     projects: [
       {
         id: "0",
-        shorttitle: "Eventing",
-        title: "Eventing - Event Management Web Application",
+        shorttitle: "Inbound Media",
+        title: "Inbound Media - Social Media Web Application",
         description:
-          "Eventing ( Event Management Website ) is the application of project management to the creation and development of small and/or large-scale personal or corporate events such as festivals, conferences, ceremonies, weddings, formal parties, concerts, or conventions.",
+          "Inbound Media ( Social Media Web Application ) is the interactive technologies that allow the creation or sharing/exchange of information, ideas, interests, and other forms of expression via virtual communities and networks.",
         onFront: true,
         image:
-          "https://raw.githubusercontent.com/thearpitanand/event-booking-client/main/public/assets/Website_Screenshot/screenshot_website_01.png",
-        url: "https://eventing.thearpitanand.com/",
+          "https://github.com/theshifaligwal/inbound-social-media-client/blob/master/public/assets/website%20screenshot/website_screenshot_1.png?raw=true",
+        url: "https://inboundmedia.theshifaligwal.com/",
         screenShot: [
           {
             websiteScreenshot:
-              "https://raw.githubusercontent.com/thearpitanand/event-booking-client/main/public/assets/Website_Screenshot/screenshot_website_02.png",
+              "https://raw.githubusercontent.com/theshifaligwal/inbound-social-media-client/master/public/assets/website%20screenshot/website_screenshot_1.png",
           },
           {
             websiteScreenshot:
-              "https://raw.githubusercontent.com/thearpitanand/event-booking-client/main/public/assets/Website_Screenshot/screenshot_website_03.png",
+              "https://raw.githubusercontent.com/theshifaligwal/inbound-social-media-client/master/public/assets/website%20screenshot/website_screenshot_2.png",
           },
           {
             websiteScreenshot:
-              "https://raw.githubusercontent.com/thearpitanand/event-booking-client/main/public/assets/Website_Screenshot/screenshot_website_04.png",
+              "https://raw.githubusercontent.com/theshifaligwal/inbound-social-media-client/master/public/assets/website%20screenshot/website_screenshot_3.png",
+          },
+          {
+            websiteScreenshot:
+              "https://raw.githubusercontent.com/theshifaligwal/inbound-social-media-client/master/public/assets/website%20screenshot/website_screenshot_4.png",
           },
         ],
         frontEnd: true,
         backEnd: true,
         githubCodeUrlFrontEnd:
-          "https://github.com/thearpitanand/event-booking-client",
+          "https://github.com/theshifaligwal/inbound-social-media-client",
         githubCodeUrlBackEnd:
-          "https://github.com/thearpitanand/event-booking-server",
+          "https://github.com/theshifaligwal/inbound-social-media-server",
         techStack: [
           {
             for: "frontend",
@@ -118,14 +122,6 @@ const resumeData = {
             width: "64",
             iconLink:
               "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png",
-          },
-          {
-            for: "backend",
-            title: "GraphQL",
-            height: "40",
-            width: "40",
-            iconLink:
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/225px-GraphQL_Logo.svg.png",
           },
           {
             for: "backend",
@@ -155,28 +151,24 @@ const resumeData = {
       },
       {
         id: "1",
-        shorttitle: "LinkedIn",
-        title: "Linked In - Clone",
+        shorttitle: "Hulu",
+        title: "Hulu - Clone",
         description:
-          "LinkedIn is an American business and employment-oriented online service that operates via websites and mobile apps. Launched on May 5, 2003, the platform is mainly used for professional networking, and allows job seekers to post their CVs and employers to post jobs.",
+          "Hulu is an online streaming service owned by The Walt Disney Company and Comcast.",
         onFront: true,
         image:
-          "https://github.com/thearpitanand/linkedin-clone/blob/main/public/website-screenshot.png?raw=true",
-        url: "https://linkedin-clone.thearpitanand.com/",
+          "https://raw.githubusercontent.com/theshifaligwal/hulu/main/public/website%20screenshot/website_screenshot_1.png",
+        url: "https://hulu-clone.theshifaligwal.com/",
         screenShot: [
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/linkedin-clone/blob/main/public/website-screenshot-login.png?raw=true",
-          },
-          {
-            websiteScreenshot:
-              "https://github.com/thearpitanand/linkedin-clone/blob/main/public/website-screenshot.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/hulu/main/public/website%20screenshot/website_screenshot_1.png",
           },
         ],
         frontEnd: true,
         backEnd: false,
         githubCodeUrlFrontEnd:
-          "https://github.com/thearpitanand/linkedin-clone",
+          "https://github.com/theshifaligwal/hulu",
         githubCodeUrlBackEnd: "",
         techStack: [
           {
@@ -189,54 +181,59 @@ const resumeData = {
           },
           {
             for: "frontend",
-            title: "Redux",
-            height: "26",
-            width: "96",
+            title: "Next.Js",
+            height: "38",
+            width: "64",
             iconLink:
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/220px-Redux_Logo.png",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/220px-Nextjs-logo.svg.png",
           },
           {
             for: "frontend",
-            title: "Material UI",
-            height: "21",
-            width: "26.46",
-            iconLink: "https://material-ui.com/static/logo_raw.svg",
-          },
-          {
-            for: "backend",
             end: true,
-            title: "Firebase",
-            height: "27",
-            width: "96",
+            title: "Tailwind CSS",
+            height: "40",
+            width: "40",
             iconLink:
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/220px-Firebase_Logo.svg.png",
+              "https://www.markusantonwolf.com/media/pages/blog/tailwind-css/265298487-1596675041/tailwind-css-logo.svg",
           },
         ],
       },
       {
         id: "2",
-        shorttitle: "Google",
-        title: "Google - Clone",
+        shorttitle: "Google Docs",
+        title: "Google Docs - Clone",
         description:
-          "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.",
+          "Google Docs is an online word processor included as part of the free, web-based Google Docs Editors suite offered by Google, which also includes Google Sheets, Google Slides, Google Drawings, Google Forms, Google Sites, and Google Keep.",
         onFront: true,
         image:
-          "https://github.com/thearpitanand/google-clone/raw/main/public/website-screenshot.png",
+          "https://raw.githubusercontent.com/theshifaligwal/google-docs/main/public/website%20screenshot/website_screenshot_5.png",
         imageHeight: "320",
-        url: "https://google.thearpitanand.com/",
+        url: "https://google-docs.theshifaligwal.com/",
         screenShot: [
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/google-clone/raw/main/public/website-screenshot.png",
+              "https://raw.githubusercontent.com/theshifaligwal/google-docs/main/public/website%20screenshot/website_screenshot_1.png",
           },
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/google-clone/blob/main/public/website-screenshot_01.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/google-docs/main/public/website%20screenshot/website_screenshot_2.png",
+          },
+          {
+            websiteScreenshot:
+              "https://raw.githubusercontent.com/theshifaligwal/google-docs/main/public/website%20screenshot/website_screenshot_3.png",
+          },
+          {
+            websiteScreenshot:
+              "https://raw.githubusercontent.com/theshifaligwal/google-docs/main/public/website%20screenshot/website_screenshot_4.png",
+          },
+          {
+            websiteScreenshot:
+              "https://raw.githubusercontent.com/theshifaligwal/google-docs/main/public/website%20screenshot/website_screenshot_5.png",
           },
         ],
         frontEnd: true,
         backEnd: false,
-        githubCodeUrlFrontEnd: "https://github.com/thearpitanand/google-clone",
+        githubCodeUrlFrontEnd: "https://github.com/theshifaligwal/google-docs",
         githubCodeUrlBackEnd: "",
         techStack: [
           {
@@ -274,44 +271,44 @@ const resumeData = {
           "Shopping ASAP is an E-Commerce Website, also known as Electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.",
         onFront: true,
         image:
-          "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_01.png?raw=true",
+          "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_01.png",
         url: "https://shopper.theshifaligwal.com/",
         screenShot: [
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_01.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_01.png",
           },
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_02.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_02.png",
           },
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_03.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_03.png",
           },
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_04.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_04.png",
           },
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_05.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_05.png",
           },
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_06.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_06.png",
           },
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_07.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_07.png",
           },
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_08.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_08.png",
           },
           {
             websiteScreenshot:
-              "https://github.com/thearpitanand/ecommerce-web-app-client/blob/main/public/assets/website%20screenshot/website_screenshot_09.png?raw=true",
+              "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_09.png",
           },
         ],
         frontEnd: true,
