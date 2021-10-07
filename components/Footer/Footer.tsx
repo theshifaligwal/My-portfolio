@@ -9,7 +9,7 @@ const Footer = () => {
           <SocialLinks />
       </div>
       <p className={footerStyle.footerText}>
-        Copyright © 2021 Arpit Anand • India based Full Stack Web Developer.
+        Copyright © 2021 Shifali Gwal • India based Full Stack Web Developer.
       </p>
     </footer>
   );
