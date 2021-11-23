@@ -268,7 +268,7 @@ const resumeData = {
         shorttitle: "Shopper",
         title: "Shopper - E-Commerce Web Application",
         description:
-          "Shopping ASAP is an E-Commerce Website, also known as Electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.",
+          "Shopper is an E-Commerce Website, also known as Electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.",
         onFront: true,
         image:
           "https://raw.githubusercontent.com/theshifaligwal/ecom-client/master/public/website%20screenshot/website_screenshot_01.png",
