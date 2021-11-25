@@ -47,9 +47,6 @@ const About = (props: props) => {
             <Link href="\#contactus"><a className={aboutStyle.hireButton}>Hire Me</a></Link>
           </div>
         </div>
-        <div className={aboutStyle.main__right}>
-          <Image src={mine} alt="coder" />
-        </div>
       </div>
     </section>
   );
