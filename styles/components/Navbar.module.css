@@ -5,14 +5,15 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary-color);
-  color: var(--natural-color);
+  color: var(--secondary-color);
 }
 
-/* thearpitanand logo */
+/* shifali logo */
 .main_logo {
   font-weight: 600;
   margin-left: 3rem;
   flex-grow: 1;
+  color: var(--secondary-color);
 }
 
 /* Desktop Navbar Links */

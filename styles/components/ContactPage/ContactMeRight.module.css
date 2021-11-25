@@ -1,6 +1,6 @@
 .heading {
-  color: var(--natural-color);
-  font-weight: 400;
+  color: var(--secondary-color);
+  font-weight: 700;
   margin: 1rem;
   margin-top: 2rem;
 }
@@ -11,12 +11,12 @@
   align-items: center;
 }
 .locationLogo {
-  font-size: 1.5rem;
-  color: var(--natural-color);
+  font-size: 1.9rem;
+  color: var(--secondary-color);
 }
 .textAddress {
-  color: var(--natural-color);
-  font-size: 0.8rem;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
   margin-left: 1rem;
 }
 .textAddress p {
@@ -29,12 +29,12 @@
   align-items: center;
 }
 .emailLogo {
-  font-size: 1.5rem;
-  color: var(--natural-color);
+  font-size: 1.7rem;
+  color: var(--secondary-color);
 }
 .textEmail {
-  color: var(--natural-color);
-  font-size: 0.8rem;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
   margin-left: 1rem;
 }
 .mobilenumber {
@@ -44,11 +44,11 @@
   align-items: center;
 }
 .mobilenumberLogo {
-  font-size: 1.5rem;
-  color: var(--natural-color);
+  font-size: 1.7rem;
+  color: var(--secondary-color);
 }
 .textMobilenumber {
-  color: var(--natural-color);
-  font-size: 0.8rem;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
   margin-left: 1rem;
 }

@@ -10,8 +10,9 @@
   padding: 0.5rem 1rem;
   text-align: center;
   letter-spacing: 0.2rem;
-  font-weight: 500;
-  border-bottom: 1px solid var(--primary-color);
+  font-weight: 600;
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
 }
 .projectsBlock {
   width: 100%;

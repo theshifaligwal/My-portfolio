@@ -1,7 +1,8 @@
 .biography {
   display: flex;
   flex-direction: column;
-  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  background-color: var(--secndary-color);
   height: max-content;
 }
 .biography .bioLeftDiv {
@@ -23,19 +24,20 @@
   width: max-content;
 }
 .biography .bioLeftDiv .profilepic div {
-  border: 5px solid var(--secondary-color);
+  border: 5px solid var(--natural-color);
   border-radius: 50%;
 }
 .biography .bioLeftDiv .profilepic img {
   border-radius: 50%;
 }
 .biography .bioRightDiv .description {
-  color: var(--natural-color);
+  color: var(--primary-color);
   width: 80%;
   text-align: justify;
   justify-items: center;
   margin: 0.5rem auto 1rem;
-  font-weight: 500;
+  font-weight: 800;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
 }
 .biography .bioRightDiv .bio {
@@ -44,7 +46,7 @@
   text-align: justify;
   justify-items: center;
   margin: 0.5rem auto 2rem;
-  font-weight: 200;
+  font-weight: 700;
   letter-spacing: 0.1rem;
 }
 

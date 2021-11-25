@@ -1,5 +1,5 @@
 .contact_form_heading {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 .contact_form {
   display: flex;
@@ -19,7 +19,8 @@
   margin: 1rem 0;
   outline: none;
   background: none;
-  border-bottom: 1.5px solid gray;
+  border-bottom: 1.5px solid var(--secondary-color);
+
 }
 /* .contact_form_first_name {
 }
@@ -33,7 +34,9 @@
   margin: 1rem 0;
   outline: none;
   background: none;
-  border-bottom: 1.5px solid gray;
+  border-bottom: 1.5px solid var(--secondary-color);
+  color: var(--secondary-color);
+
 }
 .contact_form_message {
   padding: 10px 5px 10px 5px;
@@ -42,7 +45,8 @@
   margin: 1rem 0;
   outline: none;
   background: none;
-  border-bottom: 1.5px solid gray;
+  border-bottom: 1.5px solid var(--secondary-color);
+
 }
 
 .contact_form_first_name::placeholder,
@@ -53,17 +57,19 @@
   font-family: "Montserrat", sans-serif, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
+    color: var(--secondary-color);
+    
 }
 
 .contact_form_button {
   padding: 0.5rem 2rem;
   width: max-content;
-  border: 3px solid var(--secondary-color);
+  border: 3px solid var(--primary-color);
   margin: 1rem auto 1rem 0.2rem;
   border-radius: 10px;
   box-sizing: border-box;
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-align: center;
   transition: all 0.2s;
   animation: btnBouncy 5s infinite linear;
@@ -76,8 +82,8 @@
 }
 
 .contact_form_button:hover {
-  background-color: var(--secondary-color);
-  color: var(--natural-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 @keyframes btnBouncy {

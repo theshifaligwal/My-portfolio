@@ -11,20 +11,24 @@
   height: 25px;
   width: 25px;
 }
-.socialLink .instagram:hover {
-  color: #fd1d1d;
-}
-.socialLink .facebook:hover {
-  color: #4267b2;
+
+.socialLink .github {
+  color: var(--secondary-color);
 }
 .socialLink .github:hover {
   color: #333333;
 }
-.socialLink .unsplash:hover {
-  color: #000000;
+
+
+.socialLink .twitter {
+  color: var(--secondary-color);
 }
 .socialLink .twitter:hover {
   color: #1da1f2;
+}
+
+.socialLink .linkedin {
+  color: var(--secondary-color);
 }
 .socialLink .linkedin:hover {
   color: #0077b5;
